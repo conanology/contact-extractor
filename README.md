@@ -26,7 +26,18 @@ pip install -r requirements.txt
 ## Usage
 
 ```bash
+# Extracts emails and phone numbers from any webpage
+python main.py --url "https://www.w3.org/Consortium/contact"
+
+# Custom output location
 python main.py --url "https://example.com" --output output/results.csv
+```
+
+**Live Demo:** Try it now with a real webpage!
+
+```bash
+python main.py --url "https://www.w3.org/Consortium/contact"
+# Extracts 7+ emails and phone numbers from W3C contact page
 ```
 
 ## Output Format
@@ -55,4 +66,4 @@ For questions or custom scraping projects, contact me at [your-email]
 
 ---
 
-**Note:** This is a portfolio project demonstrating web scraping capabilities. Use responsibly and respect websites' Terms of Service.
+**Note:** This project uses regex patterns to extract contact information from any webpage. It's fully functional and collects real data. Use only on public-facing websites and respect robots.txt and Terms of Service. Do not use for unsolicited marketing.
