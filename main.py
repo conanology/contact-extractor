@@ -144,7 +144,7 @@ def main():
 
     # Display results
     if len(df) > 0:
-        print(f"\n[DATA] Results:")
+        print("\n[DATA] Results:")
         print(df.to_string(index=False))
 
 
